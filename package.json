@@ -1,0 +1,26 @@
+{
+    "name": "open-localhost",
+    "description": "Open Localhost with current opened project",
+    "version": "0.0.1",
+    "publisher": "renanveroneze",
+    "repository": "",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "activationEvents": [
+        "onCommand:open-localhost.open"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "open-localhost.open",
+                "title": "Open Localhost"
+            }
+        ]
+    },
+    "scripts": {},
+    "devDependencies": {
+        "@types/vscode": "^1.32.0"
+    }
+}
