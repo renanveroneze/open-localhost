@@ -3,7 +3,9 @@
     "description": "Open Localhost with current opened project",
     "version": "0.0.1",
     "publisher": "renanveroneze",
-    "repository": "",
+    "repository": {
+        "url": "https://github.com/renanveroneze/open-localhost.git"
+    },
     "engines": {
         "vscode": "^1.32.0"
     },
